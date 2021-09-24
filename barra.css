@@ -1,0 +1,134 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color:red;
+
+}
+body{
+    font-family:cursive;
+    background: url("imagenes/astro.jpg");
+    background-size: 100%;
+}
+ul{
+    list-style: none;
+}
+img{
+    width: 130px;
+    margin-top: 90px;
+    margin-right: 0px;
+    margin-left: 70px;
+}
+input[type="checkbox"]{
+    display: none;
+    margin-left: 10px;
+}
+nav{
+    margin-top: 100px;
+    background-color:#F5DDDD;
+    width: 300px;
+    height: 95%;
+    left: -300px;
+    /* Solo pertenece al nav position */
+    position: absolute;
+    transition: all 1s;
+    border-radius: 20px;
+    border:4px solid #8E4162;
+ 
+  
+    
+
+}
+
+input[type="checkbox"]:checked ~ nav{
+    transform: translateX(300px);
+    
+}
+ul{
+
+    top: 120px;
+    position: absolute;
+    width: 100%;
+}
+a{
+
+    display: block;
+    padding: 20px 20px;
+    color:black;
+    border:2px solid #DC9E82;
+    border-radius: 20px;
+    /* SEPARACION DE BLOQUES */
+    margin-top: 10px;    
+    transition: ease 0.5s;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    background: #F2F3D9;
+   
+
+}
+a:hover{
+    background-color: black;
+    color: whitesmoke;
+
+}
+label{
+  
+    
+    position: absolute;
+    z-index: 1;
+  
+}
+h1{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-family: yonatan;
+    float: right;
+    padding: 40px;
+    font-size: 80px;
+    margin-right: 100px;
+    
+}
+/* Colocar una nueva letra y colocarle un nombre */
+@font-face {
+    font-family: yonatan;
+    src: url(Baby\ Sparkle.ttf);
+}
+
+section{
+    width: 480px;
+    height: 100%;
+    float: left;
+    margin-left: 360px;
+    background-color:#2C5E7A;
+    text-align: center;
+    transform: inherit;
+    padding: 20px;
+    border-radius: 15px;
+    
+
+}
+.creative{
+    color:aqua
+}
+h2{
+    font-size: 60px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 30px;
+    line-height: 30px;
+    width: 70%;
+    margin: auto;
+    
+}
+.img2{
+    width: 300px;
+    margin: auto;
+}
