@@ -12,6 +12,7 @@ body{
     font-family:cursive;
     background: url("imagenes/astro.jpg");
     background-size: 100%;
+  
 }
 ul{
     list-style: none;
@@ -23,6 +24,7 @@ img{
     margin-left: 70px;
 }
 input[type="checkbox"]{
+    /* boton */
     display: none;
     margin-left: 10px;
 }
@@ -52,6 +54,14 @@ ul{
     top: 120px;
     position: absolute;
     width: 100%;
+}
+.titleaside{
+
+    margin: auto;
+    margin-left: 18px;
+    color: #BF9ACA;
+    text-align: center;
+
 }
 a{
 
@@ -103,21 +113,22 @@ section{
     width: 480px;
     height: 100%;
     float: left;
-    margin-left: 360px;
-    background-color:#2C5E7A;
+    margin-left: 350px;
+    background-color:#C7E8F3;
     text-align: center;
-    transform: inherit;
-    padding: 20px;
     border-radius: 15px;
     
 
 }
+
+/* Para crear un estilo se coloca"." y en el html se añade class="nombre" */
 .creative{
+    margin-left: 150px;
     color:aqua
 }
 h2{
     font-size: 60px;
-    width: 50%;
+    width: 50px;
     margin: auto;
     margin-bottom: 20px;
 }
@@ -131,4 +142,68 @@ p{
 .img2{
     width: 300px;
     margin: auto;
+}
+
+/* ASIDE CONF */
+
+
+
+/* estilos aside */
+.publicidad{
+
+    width: 340px;
+    height: 1000px;
+    float: right;
+    
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+/* CUADRO 1 darle movimiento de publicidad */
+.cuadrotex{
+    /* background-color: rgb(255, 255, 255); */
+    width: 100%;
+    height: 33%;
+/* no halla un margen */
+    /* display: flex; */
+
+}
+.subcuadrotex{
+    width: 100%;
+    height: 90%;
+    margin: auto;
+    overflow: hidden;
+    background-image: url(imagenes/robber.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.cuadrotex2{
+    width: 100%;
+    height: 33%;
+    
+}
+
+.subcuadrotex2{
+    width: 100%;
+    height: 90%;
+    margin: auto;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    background-image: url(imagenes/paris.png)
+}
+.cuadrotex3{
+
+    width: 100%;
+    height: 33%;
+}
+.subcuadrotex3{
+    width: 100%;
+    height: 90%;
+    margin: auto;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    background-image: url(imagenes/kyrby.gif);
 }
